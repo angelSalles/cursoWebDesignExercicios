@@ -2,4 +2,4 @@
 
 Webdesign / Front-end Fundamentos. HTML e CSS (básico ao avançado), Javascript básico. Ser Front-End Cursos / Udemy
 
-Esse repositório será utilizado para armazenar todas as minhas atividades referentes ao curso, podendo ser possível observar meu progresso
+Esse repositório será utilizado para armazenar todas as minhas atividades referentes ao curso, podendo ser possível observar meu progresso.
