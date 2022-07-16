@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNJkZI/dia9E0GInixTjdHY",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/angelSalles/cursoWebDesignExercicios/blob/main/exercicio01ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 13,
+      "metadata": {
+        "id": "Di7R-40BdET0",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "eee8f9cc-b1b2-468f-ed92-a95714c1b11b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Informe o primeiro valor\n",
+            "Digite seu numero aqui 10\n",
+            "Operador -\n",
+            "Digite seu numero aqui 5\n",
+            "= 5\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Informe o primeiro valor\")\n",
+        "num = int(input(\"Digite seu numero aqui \"))\n",
+        "operador = input(\"Operador \")\n",
+        "num2 = int(input(\"Digite seu numero aqui \"))\n",
+        "print(\"= \", end=\"\")\n",
+        "if operador == \"+\":\n",
+        "  print(num+num2)\n",
+        "elif operador == \"-\":\n",
+        "  print(num-num2)\n",
+        "elif operador == \"*\":\n",
+        "  print(num*num2)\n",
+        "elif operador == \"x\":\n",
+        "  print(num*num2)\n",
+        "elif operador == \"/\":\n",
+        "  print(num/num2)"
+      ]
+    }
+  ]
+}
