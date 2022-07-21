@@ -1,0 +1,49 @@
+body{
+    font-family: Verdana, Helvetica, sans-serif;
+    margin: auto;
+    width: 80%;
+}
+
+p, li{
+    color: rgb(58, 58, 58);
+}
+
+h1{
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    padding: 0.5em;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(20, 20, 20);
+    border-bottom: solid 1px black;
+    width: 20em;
+    padding: 0.5em;
+    background-color: rgb(235, 235, 235);
+}
+
+ul{
+    list-style-position: inside;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+a:hover, a:visited:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+a:visited{
+    color: rgb(29, 43, 230);
+}
+
+a:active{
+    background-color: rgba(255, 0, 0, 0.116);
+}
+
+a{
+    color: rgba(29, 42, 230, 0.76);
+    text-decoration: none;
+}
